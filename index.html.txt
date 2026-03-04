@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Victor X</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            text-align: center;
+            font-family: Arial;
+            background: linear-gradient(135deg, #0f2027, #2c5364);
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            padding: 30px;
+        }
+
+        .logo {
+            width: 150px;
+            margin-top: 20px;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        .download-btn {
+            padding: 15px 30px;
+            font-size: 20px;
+            background: #00ffcc;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .download-btn:hover {
+            background: #00ccaa;
+        }
+
+        .screenshots img {
+            width: 250px;
+            margin: 10px;
+            border-radius: 15px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<!-- LOGO -->
+<img src="logo.png" class="logo" alt="Victor X Logo">
+
+<h1>Victor X</h1>
+
+<p>Play tournaments and win rewards</p>
+
+<br>
+
+<!-- DOWNLOAD BUTTON -->
+<a href="app.apk">
+    <button class="download-btn">Download APK</button>
+</a>
+
+<br><br>
+
+<h2>App Screens</h2>
+
+<div class="screenshots">
+    <img src="onboarding1.png" alt="Onboarding Screen 1">
+    <img src="onboarding2.png" alt="Onboarding Screen 2">
+</div>
+
+</div>
+
+</body>
+</html>
